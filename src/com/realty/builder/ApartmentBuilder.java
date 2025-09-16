@@ -1,4 +1,3 @@
-// src/com/realty/builder/ApartmentBuilder.java
 package com.realty.builder;
 
 import com.realty.model.Apartment;
@@ -6,6 +5,8 @@ import com.realty.model.Apartment;
 public abstract class ApartmentBuilder{
     protected Apartment apartment;
     public void createApartment(){ apartment = new Apartment(); }
+
+
 
     public abstract void buildAddress();
     public abstract void buildArea();

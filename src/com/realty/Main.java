@@ -1,4 +1,3 @@
-// src/com/realty/Main.java
 package com.realty;
 
 import com.realty.builder.MyApartmentBuilder;
@@ -9,6 +8,7 @@ public  class Main {
     public static void main(String[] args) {
 
         Director director = new Director();
+
         director.setBuilder(new MyApartmentBuilder());
         Apartment apartment = director.BuildApartment();
 

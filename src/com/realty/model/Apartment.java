@@ -1,4 +1,3 @@
-// src/com/realty/model/Apartment.java
 package com.realty.model;
 
 public class Apartment {
